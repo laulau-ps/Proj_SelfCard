@@ -1,0 +1,148 @@
+/*1 - ESTILO DO BODY*/
+
+body{
+/* fonte geral da página: */
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+
+/* cor do fundo: */
+    background-color: rgba(223, 172, 245, 0.583);
+
+/* cor da fonte: */
+    color: rgba(114, 108, 119, 0.943); 
+
+/* centralização do cartão na tela*/
+    display: flex;
+
+/* centraliza horizontalmente:*/
+    justify-content: center;
+
+/* centraliza verticalmente:*/
+    align-items: center;
+
+/* garante que o body ocupe 100% da altura da tela*/
+    min-height: 100vh; /*vh = view height*/
+
+/* remove qualquer margem padrão do body:*/
+    margin: 0;
+}
+
+/*2 - ESTILOS DO CARTÃO*/
+
+.cartao_apresent {
+/* ---- DIMENSÕES DO CARTÃO ---- */
+
+/* define a largura fixa do cartão:*/
+    width: 400px;
+
+/* cria um espaçamento interno fixo entre o conteúdo e a borda do cartão*/
+    padding: 30px;
+
+/* border é a linha no contorno do cartão:*/
+    border: 1px solid #cccccc ;
+    /* sintaxe: espessura | estilos | cor */
+
+/* não teremos margem pois o body já organiza isso com o flexbox*/
+
+/* ---- + ESTILOS VISUAIS DO CARTÃO ---- */
+
+/* cor do fundo do cartão*/
+    background-color: #ffffff;
+
+/* arredonda os cantos do cartão */
+    border-radius: 10px;
+
+/* cria uma sombra suave para dar profundidade no cartão */    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+/* centraliza o texto de dentro do cartão */
+    text-align: center;
+
+}
+
+/* 3 - ESTILOS PARA OS ELEMENTOS DE DENTRO DO CARTÃO */
+
+.nome {
+
+/*tamanho da fonte maior para o nome:*/
+    font-size: 2rem;
+    /* equivale a 32px*/
+
+/* cor de destaque:*/
+    color: rgb(63, 18, 91);    
+
+/* remove a margem padrão de cima do h1:*/
+    margin-top: 0;
+
+/* pequeno espaçamento abaixo do nome:*/    
+    margin-bottom: 5px;
+}
+
+.titulo {
+
+/* tamanho menor para o titulo:*/
+    font-size: 1rem;
+    /* equivale a 17.6px*/
+
+/*um tom mais suave pro titulo:*/    
+    color: rgb(131, 63, 173);
+
+/*fonte mais leve:*/
+    font-weight: 300;
+
+/*remove a margem de cima, deixando mais próximo ao nome: */    
+    margin-top: 0;
+
+/* cria um espaçamento maior antes da linha divisória:*/    
+    margin-bottom: 20px;
+}
+
+.divisor {
+
+/*remove a borda padrão do hr:*/    
+    border: none;
+
+/*define a altura da linha para 1px:*/    
+    height: 1px;
+
+/*muda a cor da linha para um cinza claro:*/    
+    background-color: #dddddd;
+
+/*centraliza a linha e cria um espaçamento abaixo:*/    
+    margin: 0 auto 20px;
+
+/*faz com que a linha seja menor que o cartão:*/    
+    width: 80%;
+}
+
+.contato_cartao {
+
+/*tamanho de fonte padrão para os contatos:*/
+    font-size: 1rem ;
+
+/*um tom mais escuro pro contato:*/
+    color: rgb(41, 9, 61);
+
+    margin-bottom: 10px;
+}
+
+/*ESTILO ESPECIFICO PARA O CONTATO DE EMAIL:*/
+
+.contato_cartao a {
+
+/*remove o sublinhado do link*/    
+    text-decoration: none;
+
+/*cor azul pra indicar que é um link clicavel*/
+    color: rgb(68, 68, 244);
+
+/*cria uma leve transição na cor ao passar o mouse:*/
+    transition: color 0.3s;
+}
+
+/* EFEITO DO TRANSITION DO LINK DO EMAIL:*/
+
+.contato_cartao a:hover {
+
+/*deixa a cor mais escuro ao passar o mouse sob o link*/    
+    color: rgb(28, 28, 200);
+}
