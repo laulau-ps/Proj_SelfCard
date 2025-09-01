@@ -19,7 +19,7 @@
   <p><strong>CSS3:</strong> Responsável pela estilização completa do cartão, incluindo o fundo, a sombra e os efeitos de hover.</p>
 
   <h2>⚙️ Como rodar</h2>
-  <p>Para ver o projeto em funcionamento, basta abrir o arquivo <code>index.html</code> em qualquer navegador web. Por se tratar de um projeto estático, não há necessidade de um servidor local ou de qualquer configuração adicional.</p>
+  <p>Para ver o projeto em funcionamento, basta abrir o link do site: https://laulau-ps.github.io/Proj_SelfCard/ </p>
 
   <h2>📁 Estrutura de pastas</h2>
   <pre>
