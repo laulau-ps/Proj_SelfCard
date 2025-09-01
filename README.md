@@ -18,8 +18,8 @@
   <p><strong>HTML5:</strong> Para a estrutura da página e os elementos de texto.</p>
   <p><strong>CSS3:</strong> Responsável pela estilização completa do cartão, incluindo o fundo, a sombra e os efeitos de hover.</p>
 
-  <h2>⚙️ Como rodar</h2>
-  <p>Para ver o projeto em funcionamento, basta abrir o link do site: https://laulau-ps.github.io/Proj_SelfCard/ </p>
+<h2>⚙️ Como acessar</h2>
+    <p>Para ver o projeto em funcionamento, você pode acessá-lo diretamente pelo link de seu site.</p>
 
   <h2>📁 Estrutura de pastas</h2>
   <pre>
