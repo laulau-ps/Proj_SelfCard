@@ -1,44 +1,35 @@
-Proj_SelfCard
-Descrição do Projeto
+<h1>🎨 Cartão de Apresentação Pessoal</h1>
+  <hr>
 
-O Proj_SelfCard é um projeto em HTML que consiste em um cartão de apresentação pessoal digital. Seu objetivo é fornecer uma forma simples e elegante de exibir informações profissionais, habilidades e contatos, funcionando como uma vitrine online do usuário.
+  <h2>📝 Descrição do projeto</h2>
+  <p>Este é um projeto simples de uma página web estática que simula um cartão de apresentação pessoal. O design é focado em clareza e minimalismo, exibindo o nome, cargo e informações de contato de forma organizada e elegante.</p>
 
-O projeto é voltado para quem deseja ter uma apresentação pessoal prática e de fácil acesso, organizada em seções claras que destacam informações relevantes.
+  <h2>✨ Funcionalidades</h2>
+  <p>⭐ **Design Limpo e Minimalista:** O cartão é estilizado para ser direto e agradável visualmente, com cores suaves e uma fonte clássica.</p>
+  <br>
+  <p>🔗 **Link de Contato:** O email é um link clicável, permitindo que o usuário envie uma mensagem diretamente.</p>
+  <br>
+  <p>🚀 **Efeito de Hover:** Ao passar o mouse sobre o link de email, a cor do texto muda sutilmente, indicando que é um elemento interativo.</p>
+  <br>
+  <p>📱 **Layout Centralizado:** O cartão é centralizado na tela, garantindo que o foco esteja na informação apresentada.</p>
+  <br>
 
-Estrutura do Projeto
+  <h2>🚀 Tecnologias utilizadas</h2>
+  <p><strong>HTML5:</strong> Para a estrutura da página e os elementos de texto.</p>
+  <p><strong>CSS3:</strong> Responsável pela estilização completa do cartão, incluindo o fundo, a sombra e os efeitos de hover.</p>
 
-O projeto contém uma página principal que organiza o conteúdo em seções distintas, incluindo dados pessoais, habilidades, experiências e contatos. A estrutura permite fácil navegação e leitura, mantendo um layout limpo e responsivo.
+  <h2>⚙️ Como rodar</h2>
+  <p>Para ver o projeto em funcionamento, basta abrir o arquivo <code>index.html</code> em qualquer navegador web. Por se tratar de um projeto estático, não há necessidade de um servidor local ou de qualquer configuração adicional.</p>
 
-Funcionalidades
+  <h2>📁 Estrutura de pastas</h2>
+  <pre>
+.
+├── index.html
+├── css/
+│   └── style.css
+└── midia/
+  └── icon.png
+  </pre>
 
-O cartão digital permite aos visitantes:
-
-Visualizar informações pessoais e profissionais.
-
-Conhecer habilidades e competências do usuário.
-
-Acessar links de redes sociais e formas de contato.
-
-Navegar de forma intuitiva graças a um design organizado e responsivo.
-
-Tecnologias Utilizadas
-
-O projeto foi desenvolvido utilizando HTML5 para a estruturação do conteúdo e CSS3 para estilização e layout, garantindo compatibilidade com navegadores modernos e uma boa experiência visual.
-
-Como Utilizar
-
-Para visualizar o cartão de apresentação:
-
-Clone o repositório para o seu computador.
-
-Abra o arquivo principal index.html em qualquer navegador moderno.
-
-Navegue pelas seções para conhecer as informações apresentadas no cartão.
-
-Autor
-
-O projeto foi desenvolvido por Laura Sena. O perfil do autor no GitHub pode ser consultado para conhecer outros projetos e contribuições.
-
-Licença
-
-Este projeto está licenciado sob a licença MIT, permitindo seu uso, cópia e modificação mediante atribuição ao autor.
+  <h2>Autores</h2>
+  <p><strong>Laura Sena</strong></p>
